@@ -5,9 +5,7 @@ int main()
     long long x,y;
     scanf("%lld",&x);
     y = x;
-    if(x == 0)
-        printf("Zero");
-    else
+    if(x != 0)
     {
         for(n=0;y>0;n++)
         {
@@ -47,6 +45,10 @@ int main()
             if(i!=1)
                 printf("-");
         }
+    }
+    else
+    {
+       printf("Zero");
     }
 
     return 0;
